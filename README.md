@@ -46,23 +46,13 @@
 
 ## :dart: About ##
 
-Describe your project
+This is an ATM app, you can simulate deposit and withdraw cash!
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
-
-## :rocket: Technologies ##
-
-The following tools were used in this project:
-
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+:heavy_check_mark: You can Deposit and Withdraw cash;\
+:heavy_check_mark: Limit to Withdraw according to balance;\
+:heavy_check_mark: You can Withdraw only amounts multiples of $20;
 
 ## :white_check_mark: Requirements ##
 
@@ -77,13 +67,13 @@ $ git clone https://github.com/gibranalcazar/atm
 # Access
 $ cd atm
 
-# Install dependencies
-$ yarn
+# Install Http-server if you don´t have it already
+$ npm install --global http-server
 
 # Run the project
-$ yarn start
+$ http-server -c-1
 
-# The server will initialize in the <http://localhost:3000>
+# Normally the server will initialize in the <http://localhost:8080>
 ```
 
 ## :memo: License ##
